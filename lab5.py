@@ -104,4 +104,4 @@ def run_game(player):
             elif choice == 5:
                 save_system.save_game(player)
         except GameError as e:
-            print(f"⚠ {e}")
+            print(f" {e}")
